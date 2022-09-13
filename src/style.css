@@ -1,0 +1,85 @@
+body {
+    margin: 0;
+    overflow: hidden;
+}
+
+.spinner {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 100vw;
+    transition: 1s;
+    background-color: #4b2b16;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.spinner .ball {
+    width: 20px;
+    height: 20px;
+    background-color: #fff;
+    border-radius: 50%;
+    display: inline-block;
+    -webkit-animation: motion 3s cubic-bezier(0.77, 0, 0.175, 1) infinite;
+    animation: motion 3s cubic-bezier(0.77, 0, 0.175, 1) infinite;
+}
+
+p {
+    color: #fff;
+    font-family: sans-serif;
+    letter-spacing: 3px;
+    font-size: 10px;
+    margin: 5px;
+}
+
+p:first-of-type{
+    margin-top: 15px;
+}
+
+@-webkit-keyframes motion {
+    0% {
+        transform: translateX(0) scale(1);
+    }
+
+    25% {
+        transform: translateX(-50px) scale(0.3);
+    }
+
+    50% {
+        transform: translateX(0) scale(1);
+    }
+
+    75% {
+        transform: translateX(50px) scale(0.3);
+    }
+
+    100% {
+        transform: translateX(0) scale(1);
+    }
+}
+
+@keyframes motion {
+    0% {
+        transform: translateX(0) scale(1);
+    }
+
+    25% {
+        transform: translateX(-50px) scale(0.3);
+    }
+
+    50% {
+        transform: translateX(0) scale(1);
+    }
+
+    75% {
+        transform: translateX(50px) scale(0.3);
+    }
+
+    100% {
+        transform: translateX(0) scale(1);
+    }
+}
