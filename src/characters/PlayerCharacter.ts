@@ -6,6 +6,7 @@ export default abstract class PlayerCharacter extends Character
 {
     onTick(_delta: number): void 
     {
+        this.drawHealthBar(40)
         if(!this.collision){
             this.state.idle()
         }
