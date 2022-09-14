@@ -21,7 +21,8 @@ export default abstract class EnemyCharacter extends Character
     }
 
     onTick(delta: number) 
-    {
+    {   
+        this.drawHealthBar(-110)
         if(this.health <= 0){
             this.die()
             
