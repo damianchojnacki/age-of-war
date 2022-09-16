@@ -9,25 +9,21 @@ export default class Goblin extends EnemyCharacter
 
     getStats()
     {
-        switch(this.level){
-            default: return {
-                attack: 10,
-                defense: 2,
-                health: 30,
-            }
-
-            case 2: return {
-                attack: 15,
-                defense: 3,
-                health: 40,
-            }
-
-            case 3: return {
-                attack: 20,
-                defense: 4,
-                health: 50,
-            }
+        return {
+            attack: 9,
+            defense: 2,
+            health: 30,
         }
+    }
+
+    getExpValue()
+    {
+        return 16
+    }
+
+    getGoldValue()
+    {
+        return 2
     }
 
     static getSpriteSheet()

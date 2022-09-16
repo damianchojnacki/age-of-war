@@ -3,8 +3,10 @@ import Goblin from './characters/Goblin';
 import Warrior from './characters/Warrior';
 import CollisionHandler from './CollisionHandler';
 import ConfiguresApplication from './ConfiguresApplication';
+import GameState from './GameState';
 import LoadingScreen from './LoadingScreen';
 import Stage from './Stage';
+import UI from './UI';
 import Background from './world/Background';
 
 /**
@@ -15,6 +17,7 @@ export default class App {
     config: ConfiguresApplication
     stage: Stage
     collisionHandler: CollisionHandler
+    state: GameState
 
     /**
      * Creates new {@link https://pixijs.download/release/docs/PIXI.Application.html Pixi.js Application} with provided config.
@@ -45,6 +48,7 @@ export default class App {
 
         this.collisionHandler = CollisionHandler.getInstance()
         this.stage = new Stage(this)
+        this.state = new GameState(this)
     }
 
     /**
@@ -106,5 +110,6 @@ export default class App {
         this.stage.add(new Background())
         this.stage.spawnPlayer()
         this.stage.spawnEnemies()
+        this.stage.add(new UI(this))
     }
 }

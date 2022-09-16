@@ -22,7 +22,8 @@ export default abstract class EnemyCharacter extends Character
 
     onTick(delta: number) 
     {   
-        this.drawHealthBar(-110)
+        this.drawHealthBar(-105)
+
         if(this.health <= 0){
             this.die()
             
@@ -58,4 +59,13 @@ export default abstract class EnemyCharacter extends Character
 
         this.state.idle()
     }
+
+    getKilledExp(): number
+    {
+        return this.level * this.getExpValue()
+    }
+
+    abstract getExpValue(): number
+
+    abstract getGoldValue(): number
 }

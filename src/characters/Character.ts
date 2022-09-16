@@ -3,12 +3,13 @@ import * as PIXI from "pixi.js"
 import App from "../App"
 import Config from "../Config"
 import CharacterObject from "./CharacterObject"
+import CharacterStats from "./CharacterStats"
 import Collidable from "./Collidable"
 import StateManager from "./StateManager"
 
 export default abstract class Character implements CharacterObject, Collidable
 {
-    private app: App
+    protected app: App
     state: StateManager
 
     id: string
@@ -33,16 +34,17 @@ export default abstract class Character implements CharacterObject, Collidable
          
         const { attack, defense, health } = this.getStats()
 
-        this.attack = attack
-        this.defense = defense
-        this.health = health
-        this.maxHealth = health
+        this.attack = attack * this.level
+        this.defense = defense * this.level
+        this.health = health * this.level
+        this.maxHealth = this.health
         
         this.state = new StateManager(this)
         
         this.sprite.position.x = Config.getInstance().player.spawn.x
         this.sprite.position.y = Config.getInstance().player.spawn.y
         this.sprite.scale.set(this.getScale())
+
         this.healthBar = new PIXI.Graphics()
     }
 
@@ -64,26 +66,22 @@ export default abstract class Character implements CharacterObject, Collidable
         }
     }
 
-    drawHealthBar(xoff: number): void {
+    drawHealthBar(xoff: number, yoff: number = 10): void {
         const map = (value: number, x1: number, y1: number, x2: number, y2: number) => (value - x1) * (y2 - x2) / (y1 - x1) + x2;
-        const width = 70;
-        const height = 10;
+        const width = 60;
+        const height = 8;
         const hp = map(this.health > 0 ? this.health : 0, 0, this.maxHealth, 0, width)
         this.healthBar.clear()
         this.healthBar
             .beginFill(0xDEDEDE)
-            .drawRect(this.sprite.position.x + xoff, this.sprite.position.y, width, height)
+            .drawRect(this.sprite.position.x + xoff, this.sprite.position.y + yoff, width, height)
             .endFill()
             .beginFill(0xcc1b0e)
-            .drawRect(this.sprite.position.x + xoff, this.sprite.position.y, hp, height)
+            .drawRect(this.sprite.position.x + xoff, this.sprite.position.y + yoff, hp, height)
             .endFill()
     }
 
-    abstract getStats(): {
-        attack: number
-        defense: number
-        health: number
-    }
+    abstract getStats(): CharacterStats
 
     abstract getSpriteSheet(): {
         name: string
