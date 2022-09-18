@@ -7,17 +7,21 @@ import Stage from "./Stage";
 
 export default class EnemySpawner
 {
+    protected app: App
+
+    lastSpawnTime: number = 0
+
     constructor(app: App)
     {
-        const spawnInterval = Config.getInstance().enemies.spawn.interval
+        const spawnInterval = Config.getInstance().enemies.spawn.interval * 1000
 
-        setInterval(() => {
-            const enemy = new Goblin(app)
-            
-            if(this.canSpawn(app.stage, enemy)){
-                app.stage.addCollidable(enemy)
+        this.app = app
+
+        this.app.engine.ticker.add(() => {
+            if(Date.now() - this.lastSpawnTime > spawnInterval){
+                this.spawn()
             }
-        }, spawnInterval * 1000)
+        })
     }
 
     canSpawn(stage: Stage, enemy: EnemyCharacter): boolean
@@ -25,5 +29,31 @@ export default class EnemySpawner
         return !!(stage.collidables.find((element) => {
             return CollisionHandler.checkCollision(element, enemy)
         })) === false
+    }
+
+    spawn(): void
+    {
+        if(this.shouldLevelUp()){
+            this.app.state.enemyLevel++
+        }
+
+        const enemy = new Goblin(this.app)
+            
+        if(this.canSpawn(this.app.stage, enemy)){
+            this.app.stage.addCollidable(enemy)
+
+            this.lastSpawnTime = Date.now()
+        }
+    }
+
+    shouldLevelUp()
+    {
+        const current = this.app.stage.elements.filter((element) => element instanceof EnemyCharacter).length
+
+        const increaseFactor = Config.getInstance().enemies.levelUpPercentIncrease / 100
+
+        const threshold = Math.round(10 * Math.pow(1 + increaseFactor, this.app.state.enemyLevel))
+
+        return current > threshold
     }
 }

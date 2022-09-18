@@ -7,6 +7,7 @@ export default class GameState
     exp: number = 0
     requiredExp: number = 0
     playerLevel: number = 1
+    enemyLevel: number = 1
 
     constructor(app: App)
     {
@@ -19,5 +20,6 @@ export default class GameState
         this.exp = 0
         this.requiredExp = 0
         this.playerLevel = 1
+        this.enemyLevel = 1
     }
 }

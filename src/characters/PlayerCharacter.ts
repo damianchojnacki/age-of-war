@@ -1,4 +1,5 @@
 import App from "../App";
+import Config from "../Config";
 import Character from "./Character";
 import Collidable from "./Collidable";
 import EnemyCharacter from "./EnemyCharacter";
@@ -34,10 +35,10 @@ export default abstract class PlayerCharacter extends Character
                 collider.state.hurt()
 
                 if(collider.health <= 0){
-                    this.exp += collider.getExpValue()
+                    this.exp += collider.getExpForKill()
 
                     this.app.state.exp = this.exp
-                    this.app.state.gold += collider.getGoldValue()
+                    this.app.state.gold += collider.getGoldForKill()
 
                     if(this.exp > this.getRequiredExp()){
                         this.levelUp()
@@ -53,7 +54,7 @@ export default abstract class PlayerCharacter extends Character
 
     getRequiredExp(): number
     {
-        const increaseFactor = 0.05
+        const increaseFactor = Config.getInstance().player.requiredExpPercentIncrease / 100
 
         return Math.round(100 * Math.pow(1 + increaseFactor, this.level))
     }
@@ -64,6 +65,7 @@ export default abstract class PlayerCharacter extends Character
 
         this.level++
 
+        this.app.state.playerLevel = this.level
         this.app.state.exp = this.exp
         this.app.state.requiredExp = this.getRequiredExp()
 

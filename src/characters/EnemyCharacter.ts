@@ -10,6 +10,13 @@ export default abstract class EnemyCharacter extends Character
     {
         super(app)
 
+        this.level = this.app.state.enemyLevel
+
+        this.attack *= this.level
+        this.defense *= this.level
+        this.health *= this.level
+        this.maxHealth = this.health
+
         this.sprite.scale.x *= -1
         this.sprite.position.x = Config.getInstance().enemies.spawn.x
         this.sprite.position.y = Config.getInstance().enemies.spawn.y
@@ -22,8 +29,6 @@ export default abstract class EnemyCharacter extends Character
 
     onTick(delta: number) 
     {   
-        this.drawHealthBar(-105)
-
         if(this.health <= 0){
             this.die()
             
@@ -42,12 +47,16 @@ export default abstract class EnemyCharacter extends Character
     onCollision(collider: Collidable): void
     {
         if(this.health <= 0){
+            this.drawHealthBar(-105)
+
             this.die()
 
             return;
         }
 
         if(collider instanceof PlayerCharacter){
+            this.drawHealthBar(-105)
+
             if(this.state.attack()){
                 collider.health -= this.attack - collider.defense
 
@@ -60,12 +69,21 @@ export default abstract class EnemyCharacter extends Character
         this.state.idle()
     }
 
-    getKilledExp(): number
+    getExpForKill(): number
     {
-        return this.level * this.getExpValue()
+        const increaseFactor = Config.getInstance().enemies.expForKillPercentIncrease / 100
+
+        return Math.round(Math.pow(1 + increaseFactor, this.level)) * this.getExpValue()
     }
 
-    abstract getExpValue(): number
+    getGoldForKill(): number
+    {
+        const increaseFactor = Config.getInstance().enemies.goldForKillPercentIncrease / 100
 
-    abstract getGoldValue(): number
+        return Math.round(Math.pow(1 + increaseFactor, this.level)) * this.getGoldValue()
+    }
+
+    protected abstract getExpValue(): number
+
+    protected abstract getGoldValue(): number
 }

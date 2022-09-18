@@ -102,7 +102,7 @@ export default class App {
             loading.hide()
 
             this.engine.ticker.start()
-        }, 2000)
+        }, 1000)
     }
 
     setupStage(): void

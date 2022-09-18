@@ -22,14 +22,18 @@ export default class Config
                 spawn: {
                     x: 100,
                     y: 400,
-                }
+                },
+                requiredExpPercentIncrease: 30
             },
             enemies: {
                 spawn: {
                     x: 500,
                     y: 400,
                     interval: 3,
-                }
+                },
+                levelUpPercentIncrease: 30,
+                expForKillPercentIncrease: 20,
+                goldForKillPercentIncrease: 20,
             }
         }
     }

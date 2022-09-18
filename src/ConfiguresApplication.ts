@@ -8,7 +8,8 @@ export default interface ConfiguresApplication
         spawn: {
             x: number
             y: number
-        }
+        },
+        requiredExpPercentIncrease: number
     }
 
     enemies: {
@@ -17,5 +18,8 @@ export default interface ConfiguresApplication
             y: number
             interval: number
         }
+        levelUpPercentIncrease: number,
+        expForKillPercentIncrease: number,
+        goldForKillPercentIncrease: number,
     }
 }

@@ -4,7 +4,7 @@ export default class Goblin extends EnemyCharacter
 {
     offsetMultiplier = {
         left: 0.5,
-        right: 0.125
+        right: 0.25
     }
 
     getStats()
@@ -41,7 +41,7 @@ export default class Goblin extends EnemyCharacter
 
     getScale(): number
     {
-        return 0.17
+        return 0.95
     }
 
     getAnimationSpeed(): number

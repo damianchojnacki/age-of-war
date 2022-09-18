@@ -1,7 +1,7 @@
 {
 	"meta": {
-		"image": "spritesheet.png",
-		"size": {"w":12100,"h":11000},
+		"image": "compressed.png",
+		"size": {"w":2000,"h":1820},
 		"scale": "1"
 	},
 	"animations": {
@@ -124,843 +124,843 @@
 	"frames": {
 		"0_Warrior_Attack_1_000.png":
 		{
-			"frame": {"x":0,"y":0,"w":1100,"h":1100},
+			"frame": {"x":0,"y":0,"w":182,"h":182},
 			"rotated": false,
 			"trimmed": false,
-			"spriteSourceSize": {"x":0,"y":0,"w":1100,"h":1100},
-			"sourceSize": {"w":1100,"h":1100}
+			"spriteSourceSize": {"x":0,"y":0,"w":182,"h":182},
+			"sourceSize": {"w":182,"h":182}
 		},
 		"0_Warrior_Attack_1_001.png":
 		{
-			"frame": {"x":1100,"y":0,"w":1100,"h":1100},
+			"frame": {"x":182,"y":0,"w":182,"h":182},
 			"rotated": false,
 			"trimmed": false,
-			"spriteSourceSize": {"x":0,"y":0,"w":1100,"h":1100},
-			"sourceSize": {"w":1100,"h":1100}
+			"spriteSourceSize": {"x":0,"y":0,"w":182,"h":182},
+			"sourceSize": {"w":182,"h":182}
 		},
 		"0_Warrior_Attack_1_002.png":
 		{
-			"frame": {"x":0,"y":1100,"w":1100,"h":1100},
+			"frame": {"x":0,"y":182,"w":182,"h":182},
 			"rotated": false,
 			"trimmed": false,
-			"spriteSourceSize": {"x":0,"y":0,"w":1100,"h":1100},
-			"sourceSize": {"w":1100,"h":1100}
+			"spriteSourceSize": {"x":0,"y":0,"w":182,"h":182},
+			"sourceSize": {"w":182,"h":182}
 		},
 		"0_Warrior_Attack_1_003.png":
 		{
-			"frame": {"x":1100,"y":1100,"w":1100,"h":1100},
+			"frame": {"x":182,"y":182,"w":182,"h":182},
 			"rotated": false,
 			"trimmed": false,
-			"spriteSourceSize": {"x":0,"y":0,"w":1100,"h":1100},
-			"sourceSize": {"w":1100,"h":1100}
+			"spriteSourceSize": {"x":0,"y":0,"w":182,"h":182},
+			"sourceSize": {"w":182,"h":182}
 		},
 		"0_Warrior_Attack_1_004.png":
 		{
-			"frame": {"x":2200,"y":0,"w":1100,"h":1100},
+			"frame": {"x":364,"y":0,"w":182,"h":182},
 			"rotated": false,
 			"trimmed": false,
-			"spriteSourceSize": {"x":0,"y":0,"w":1100,"h":1100},
-			"sourceSize": {"w":1100,"h":1100}
+			"spriteSourceSize": {"x":0,"y":0,"w":182,"h":182},
+			"sourceSize": {"w":182,"h":182}
 		},
 		"0_Warrior_Attack_1_005.png":
 		{
-			"frame": {"x":2200,"y":1100,"w":1100,"h":1100},
+			"frame": {"x":364,"y":182,"w":182,"h":182},
 			"rotated": false,
 			"trimmed": false,
-			"spriteSourceSize": {"x":0,"y":0,"w":1100,"h":1100},
-			"sourceSize": {"w":1100,"h":1100}
+			"spriteSourceSize": {"x":0,"y":0,"w":182,"h":182},
+			"sourceSize": {"w":182,"h":182}
 		},
 		"0_Warrior_Attack_1_006.png":
 		{
-			"frame": {"x":0,"y":2200,"w":1100,"h":1100},
+			"frame": {"x":0,"y":364,"w":182,"h":182},
 			"rotated": false,
 			"trimmed": false,
-			"spriteSourceSize": {"x":0,"y":0,"w":1100,"h":1100},
-			"sourceSize": {"w":1100,"h":1100}
+			"spriteSourceSize": {"x":0,"y":0,"w":182,"h":182},
+			"sourceSize": {"w":182,"h":182}
 		},
 		"0_Warrior_Attack_1_007.png":
 		{
-			"frame": {"x":1100,"y":2200,"w":1100,"h":1100},
+			"frame": {"x":182,"y":364,"w":182,"h":182},
 			"rotated": false,
 			"trimmed": false,
-			"spriteSourceSize": {"x":0,"y":0,"w":1100,"h":1100},
-			"sourceSize": {"w":1100,"h":1100}
+			"spriteSourceSize": {"x":0,"y":0,"w":182,"h":182},
+			"sourceSize": {"w":182,"h":182}
 		},
 		"0_Warrior_Attack_1_008.png":
 		{
-			"frame": {"x":2200,"y":2200,"w":1100,"h":1100},
+			"frame": {"x":364,"y":364,"w":182,"h":182},
 			"rotated": false,
 			"trimmed": false,
-			"spriteSourceSize": {"x":0,"y":0,"w":1100,"h":1100},
-			"sourceSize": {"w":1100,"h":1100}
+			"spriteSourceSize": {"x":0,"y":0,"w":182,"h":182},
+			"sourceSize": {"w":182,"h":182}
 		},
 		"0_Warrior_Attack_1_009.png":
 		{
-			"frame": {"x":3300,"y":0,"w":1100,"h":1100},
+			"frame": {"x":546,"y":0,"w":182,"h":182},
 			"rotated": false,
 			"trimmed": false,
-			"spriteSourceSize": {"x":0,"y":0,"w":1100,"h":1100},
-			"sourceSize": {"w":1100,"h":1100}
+			"spriteSourceSize": {"x":0,"y":0,"w":182,"h":182},
+			"sourceSize": {"w":182,"h":182}
 		},
 		"0_Warrior_Attack_1_010.png":
 		{
-			"frame": {"x":3300,"y":1100,"w":1100,"h":1100},
+			"frame": {"x":546,"y":182,"w":182,"h":182},
 			"rotated": false,
 			"trimmed": false,
-			"spriteSourceSize": {"x":0,"y":0,"w":1100,"h":1100},
-			"sourceSize": {"w":1100,"h":1100}
+			"spriteSourceSize": {"x":0,"y":0,"w":182,"h":182},
+			"sourceSize": {"w":182,"h":182}
 		},
 		"0_Warrior_Attack_1_011.png":
 		{
-			"frame": {"x":3300,"y":2200,"w":1100,"h":1100},
+			"frame": {"x":546,"y":364,"w":182,"h":182},
 			"rotated": false,
 			"trimmed": false,
-			"spriteSourceSize": {"x":0,"y":0,"w":1100,"h":1100},
-			"sourceSize": {"w":1100,"h":1100}
+			"spriteSourceSize": {"x":0,"y":0,"w":182,"h":182},
+			"sourceSize": {"w":182,"h":182}
 		},
 		"0_Warrior_Attack_1_012.png":
 		{
-			"frame": {"x":0,"y":3300,"w":1100,"h":1100},
+			"frame": {"x":0,"y":546,"w":182,"h":182},
 			"rotated": false,
 			"trimmed": false,
-			"spriteSourceSize": {"x":0,"y":0,"w":1100,"h":1100},
-			"sourceSize": {"w":1100,"h":1100}
+			"spriteSourceSize": {"x":0,"y":0,"w":182,"h":182},
+			"sourceSize": {"w":182,"h":182}
 		},
 		"0_Warrior_Attack_1_013.png":
 		{
-			"frame": {"x":1100,"y":3300,"w":1100,"h":1100},
+			"frame": {"x":182,"y":546,"w":182,"h":182},
 			"rotated": false,
 			"trimmed": false,
-			"spriteSourceSize": {"x":0,"y":0,"w":1100,"h":1100},
-			"sourceSize": {"w":1100,"h":1100}
+			"spriteSourceSize": {"x":0,"y":0,"w":182,"h":182},
+			"sourceSize": {"w":182,"h":182}
 		},
 		"0_Warrior_Attack_1_014.png":
 		{
-			"frame": {"x":2200,"y":3300,"w":1100,"h":1100},
+			"frame": {"x":364,"y":546,"w":182,"h":182},
 			"rotated": false,
 			"trimmed": false,
-			"spriteSourceSize": {"x":0,"y":0,"w":1100,"h":1100},
-			"sourceSize": {"w":1100,"h":1100}
+			"spriteSourceSize": {"x":0,"y":0,"w":182,"h":182},
+			"sourceSize": {"w":182,"h":182}
 		},
 		"0_Warrior_Attack_2_000.png":
 		{
-			"frame": {"x":3300,"y":3300,"w":1100,"h":1100},
+			"frame": {"x":546,"y":546,"w":182,"h":182},
 			"rotated": false,
 			"trimmed": false,
-			"spriteSourceSize": {"x":0,"y":0,"w":1100,"h":1100},
-			"sourceSize": {"w":1100,"h":1100}
+			"spriteSourceSize": {"x":0,"y":0,"w":182,"h":182},
+			"sourceSize": {"w":182,"h":182}
 		},
 		"0_Warrior_Attack_2_001.png":
 		{
-			"frame": {"x":4400,"y":0,"w":1100,"h":1100},
+			"frame": {"x":728,"y":0,"w":182,"h":182},
 			"rotated": false,
 			"trimmed": false,
-			"spriteSourceSize": {"x":0,"y":0,"w":1100,"h":1100},
-			"sourceSize": {"w":1100,"h":1100}
+			"spriteSourceSize": {"x":0,"y":0,"w":182,"h":182},
+			"sourceSize": {"w":182,"h":182}
 		},
 		"0_Warrior_Attack_2_002.png":
 		{
-			"frame": {"x":4400,"y":1100,"w":1100,"h":1100},
+			"frame": {"x":728,"y":182,"w":182,"h":182},
 			"rotated": false,
 			"trimmed": false,
-			"spriteSourceSize": {"x":0,"y":0,"w":1100,"h":1100},
-			"sourceSize": {"w":1100,"h":1100}
+			"spriteSourceSize": {"x":0,"y":0,"w":182,"h":182},
+			"sourceSize": {"w":182,"h":182}
 		},
 		"0_Warrior_Attack_2_003.png":
 		{
-			"frame": {"x":4400,"y":2200,"w":1100,"h":1100},
+			"frame": {"x":728,"y":364,"w":182,"h":182},
 			"rotated": false,
 			"trimmed": false,
-			"spriteSourceSize": {"x":0,"y":0,"w":1100,"h":1100},
-			"sourceSize": {"w":1100,"h":1100}
+			"spriteSourceSize": {"x":0,"y":0,"w":182,"h":182},
+			"sourceSize": {"w":182,"h":182}
 		},
 		"0_Warrior_Attack_2_004.png":
 		{
-			"frame": {"x":4400,"y":3300,"w":1100,"h":1100},
+			"frame": {"x":728,"y":546,"w":182,"h":182},
 			"rotated": false,
 			"trimmed": false,
-			"spriteSourceSize": {"x":0,"y":0,"w":1100,"h":1100},
-			"sourceSize": {"w":1100,"h":1100}
+			"spriteSourceSize": {"x":0,"y":0,"w":182,"h":182},
+			"sourceSize": {"w":182,"h":182}
 		},
 		"0_Warrior_Attack_2_005.png":
 		{
-			"frame": {"x":0,"y":4400,"w":1100,"h":1100},
+			"frame": {"x":0,"y":728,"w":182,"h":182},
 			"rotated": false,
 			"trimmed": false,
-			"spriteSourceSize": {"x":0,"y":0,"w":1100,"h":1100},
-			"sourceSize": {"w":1100,"h":1100}
+			"spriteSourceSize": {"x":0,"y":0,"w":182,"h":182},
+			"sourceSize": {"w":182,"h":182}
 		},
 		"0_Warrior_Attack_2_006.png":
 		{
-			"frame": {"x":1100,"y":4400,"w":1100,"h":1100},
+			"frame": {"x":182,"y":728,"w":182,"h":182},
 			"rotated": false,
 			"trimmed": false,
-			"spriteSourceSize": {"x":0,"y":0,"w":1100,"h":1100},
-			"sourceSize": {"w":1100,"h":1100}
+			"spriteSourceSize": {"x":0,"y":0,"w":182,"h":182},
+			"sourceSize": {"w":182,"h":182}
 		},
 		"0_Warrior_Attack_2_007.png":
 		{
-			"frame": {"x":2200,"y":4400,"w":1100,"h":1100},
+			"frame": {"x":364,"y":728,"w":182,"h":182},
 			"rotated": false,
 			"trimmed": false,
-			"spriteSourceSize": {"x":0,"y":0,"w":1100,"h":1100},
-			"sourceSize": {"w":1100,"h":1100}
+			"spriteSourceSize": {"x":0,"y":0,"w":182,"h":182},
+			"sourceSize": {"w":182,"h":182}
 		},
 		"0_Warrior_Attack_2_008.png":
 		{
-			"frame": {"x":3300,"y":4400,"w":1100,"h":1100},
+			"frame": {"x":546,"y":728,"w":182,"h":182},
 			"rotated": false,
 			"trimmed": false,
-			"spriteSourceSize": {"x":0,"y":0,"w":1100,"h":1100},
-			"sourceSize": {"w":1100,"h":1100}
+			"spriteSourceSize": {"x":0,"y":0,"w":182,"h":182},
+			"sourceSize": {"w":182,"h":182}
 		},
 		"0_Warrior_Attack_2_009.png":
 		{
-			"frame": {"x":4400,"y":4400,"w":1100,"h":1100},
+			"frame": {"x":728,"y":728,"w":182,"h":182},
 			"rotated": false,
 			"trimmed": false,
-			"spriteSourceSize": {"x":0,"y":0,"w":1100,"h":1100},
-			"sourceSize": {"w":1100,"h":1100}
+			"spriteSourceSize": {"x":0,"y":0,"w":182,"h":182},
+			"sourceSize": {"w":182,"h":182}
 		},
 		"0_Warrior_Attack_2_010.png":
 		{
-			"frame": {"x":5500,"y":0,"w":1100,"h":1100},
+			"frame": {"x":910,"y":0,"w":182,"h":182},
 			"rotated": false,
 			"trimmed": false,
-			"spriteSourceSize": {"x":0,"y":0,"w":1100,"h":1100},
-			"sourceSize": {"w":1100,"h":1100}
+			"spriteSourceSize": {"x":0,"y":0,"w":182,"h":182},
+			"sourceSize": {"w":182,"h":182}
 		},
 		"0_Warrior_Attack_2_011.png":
 		{
-			"frame": {"x":5500,"y":1100,"w":1100,"h":1100},
+			"frame": {"x":910,"y":182,"w":182,"h":182},
 			"rotated": false,
 			"trimmed": false,
-			"spriteSourceSize": {"x":0,"y":0,"w":1100,"h":1100},
-			"sourceSize": {"w":1100,"h":1100}
+			"spriteSourceSize": {"x":0,"y":0,"w":182,"h":182},
+			"sourceSize": {"w":182,"h":182}
 		},
 		"0_Warrior_Attack_2_012.png":
 		{
-			"frame": {"x":5500,"y":2200,"w":1100,"h":1100},
+			"frame": {"x":910,"y":364,"w":182,"h":182},
 			"rotated": false,
 			"trimmed": false,
-			"spriteSourceSize": {"x":0,"y":0,"w":1100,"h":1100},
-			"sourceSize": {"w":1100,"h":1100}
+			"spriteSourceSize": {"x":0,"y":0,"w":182,"h":182},
+			"sourceSize": {"w":182,"h":182}
 		},
 		"0_Warrior_Attack_2_013.png":
 		{
-			"frame": {"x":5500,"y":3300,"w":1100,"h":1100},
+			"frame": {"x":910,"y":546,"w":182,"h":182},
 			"rotated": false,
 			"trimmed": false,
-			"spriteSourceSize": {"x":0,"y":0,"w":1100,"h":1100},
-			"sourceSize": {"w":1100,"h":1100}
+			"spriteSourceSize": {"x":0,"y":0,"w":182,"h":182},
+			"sourceSize": {"w":182,"h":182}
 		},
 		"0_Warrior_Attack_2_014.png":
 		{
-			"frame": {"x":5500,"y":4400,"w":1100,"h":1100},
+			"frame": {"x":910,"y":728,"w":182,"h":182},
 			"rotated": false,
 			"trimmed": false,
-			"spriteSourceSize": {"x":0,"y":0,"w":1100,"h":1100},
-			"sourceSize": {"w":1100,"h":1100}
+			"spriteSourceSize": {"x":0,"y":0,"w":182,"h":182},
+			"sourceSize": {"w":182,"h":182}
 		},
 		"0_Warrior_Died_000.png":
 		{
-			"frame": {"x":0,"y":5500,"w":1100,"h":1100},
+			"frame": {"x":0,"y":910,"w":182,"h":182},
 			"rotated": false,
 			"trimmed": false,
-			"spriteSourceSize": {"x":0,"y":0,"w":1100,"h":1100},
-			"sourceSize": {"w":1100,"h":1100}
+			"spriteSourceSize": {"x":0,"y":0,"w":182,"h":182},
+			"sourceSize": {"w":182,"h":182}
 		},
 		"0_Warrior_Died_001.png":
 		{
-			"frame": {"x":1100,"y":5500,"w":1100,"h":1100},
+			"frame": {"x":182,"y":910,"w":182,"h":182},
 			"rotated": false,
 			"trimmed": false,
-			"spriteSourceSize": {"x":0,"y":0,"w":1100,"h":1100},
-			"sourceSize": {"w":1100,"h":1100}
+			"spriteSourceSize": {"x":0,"y":0,"w":182,"h":182},
+			"sourceSize": {"w":182,"h":182}
 		},
 		"0_Warrior_Died_002.png":
 		{
-			"frame": {"x":2200,"y":5500,"w":1100,"h":1100},
+			"frame": {"x":364,"y":910,"w":182,"h":182},
 			"rotated": false,
 			"trimmed": false,
-			"spriteSourceSize": {"x":0,"y":0,"w":1100,"h":1100},
-			"sourceSize": {"w":1100,"h":1100}
+			"spriteSourceSize": {"x":0,"y":0,"w":182,"h":182},
+			"sourceSize": {"w":182,"h":182}
 		},
 		"0_Warrior_Died_003.png":
 		{
-			"frame": {"x":3300,"y":5500,"w":1100,"h":1100},
+			"frame": {"x":546,"y":910,"w":182,"h":182},
 			"rotated": false,
 			"trimmed": false,
-			"spriteSourceSize": {"x":0,"y":0,"w":1100,"h":1100},
-			"sourceSize": {"w":1100,"h":1100}
+			"spriteSourceSize": {"x":0,"y":0,"w":182,"h":182},
+			"sourceSize": {"w":182,"h":182}
 		},
 		"0_Warrior_Died_004.png":
 		{
-			"frame": {"x":4400,"y":5500,"w":1100,"h":1100},
+			"frame": {"x":728,"y":910,"w":182,"h":182},
 			"rotated": false,
 			"trimmed": false,
-			"spriteSourceSize": {"x":0,"y":0,"w":1100,"h":1100},
-			"sourceSize": {"w":1100,"h":1100}
+			"spriteSourceSize": {"x":0,"y":0,"w":182,"h":182},
+			"sourceSize": {"w":182,"h":182}
 		},
 		"0_Warrior_Died_005.png":
 		{
-			"frame": {"x":5500,"y":5500,"w":1100,"h":1100},
+			"frame": {"x":910,"y":910,"w":182,"h":182},
 			"rotated": false,
 			"trimmed": false,
-			"spriteSourceSize": {"x":0,"y":0,"w":1100,"h":1100},
-			"sourceSize": {"w":1100,"h":1100}
+			"spriteSourceSize": {"x":0,"y":0,"w":182,"h":182},
+			"sourceSize": {"w":182,"h":182}
 		},
 		"0_Warrior_Died_006.png":
 		{
-			"frame": {"x":6600,"y":0,"w":1100,"h":1100},
+			"frame": {"x":1092,"y":0,"w":182,"h":182},
 			"rotated": false,
 			"trimmed": false,
-			"spriteSourceSize": {"x":0,"y":0,"w":1100,"h":1100},
-			"sourceSize": {"w":1100,"h":1100}
+			"spriteSourceSize": {"x":0,"y":0,"w":182,"h":182},
+			"sourceSize": {"w":182,"h":182}
 		},
 		"0_Warrior_Died_007.png":
 		{
-			"frame": {"x":6600,"y":1100,"w":1100,"h":1100},
+			"frame": {"x":1092,"y":182,"w":182,"h":182},
 			"rotated": false,
 			"trimmed": false,
-			"spriteSourceSize": {"x":0,"y":0,"w":1100,"h":1100},
-			"sourceSize": {"w":1100,"h":1100}
+			"spriteSourceSize": {"x":0,"y":0,"w":182,"h":182},
+			"sourceSize": {"w":182,"h":182}
 		},
 		"0_Warrior_Died_008.png":
 		{
-			"frame": {"x":6600,"y":2200,"w":1100,"h":1100},
+			"frame": {"x":1092,"y":364,"w":182,"h":182},
 			"rotated": false,
 			"trimmed": false,
-			"spriteSourceSize": {"x":0,"y":0,"w":1100,"h":1100},
-			"sourceSize": {"w":1100,"h":1100}
+			"spriteSourceSize": {"x":0,"y":0,"w":182,"h":182},
+			"sourceSize": {"w":182,"h":182}
 		},
 		"0_Warrior_Died_009.png":
 		{
-			"frame": {"x":6600,"y":3300,"w":1100,"h":1100},
+			"frame": {"x":1092,"y":546,"w":182,"h":182},
 			"rotated": false,
 			"trimmed": false,
-			"spriteSourceSize": {"x":0,"y":0,"w":1100,"h":1100},
-			"sourceSize": {"w":1100,"h":1100}
+			"spriteSourceSize": {"x":0,"y":0,"w":182,"h":182},
+			"sourceSize": {"w":182,"h":182}
 		},
 		"0_Warrior_Died_010.png":
 		{
-			"frame": {"x":6600,"y":4400,"w":1100,"h":1100},
+			"frame": {"x":1092,"y":728,"w":182,"h":182},
 			"rotated": false,
 			"trimmed": false,
-			"spriteSourceSize": {"x":0,"y":0,"w":1100,"h":1100},
-			"sourceSize": {"w":1100,"h":1100}
+			"spriteSourceSize": {"x":0,"y":0,"w":182,"h":182},
+			"sourceSize": {"w":182,"h":182}
 		},
 		"0_Warrior_Died_011.png":
 		{
-			"frame": {"x":6600,"y":5500,"w":1100,"h":1100},
+			"frame": {"x":1092,"y":910,"w":182,"h":182},
 			"rotated": false,
 			"trimmed": false,
-			"spriteSourceSize": {"x":0,"y":0,"w":1100,"h":1100},
-			"sourceSize": {"w":1100,"h":1100}
+			"spriteSourceSize": {"x":0,"y":0,"w":182,"h":182},
+			"sourceSize": {"w":182,"h":182}
 		},
 		"0_Warrior_Died_012.png":
 		{
-			"frame": {"x":0,"y":6600,"w":1100,"h":1100},
+			"frame": {"x":0,"y":1092,"w":182,"h":182},
 			"rotated": false,
 			"trimmed": false,
-			"spriteSourceSize": {"x":0,"y":0,"w":1100,"h":1100},
-			"sourceSize": {"w":1100,"h":1100}
+			"spriteSourceSize": {"x":0,"y":0,"w":182,"h":182},
+			"sourceSize": {"w":182,"h":182}
 		},
 		"0_Warrior_Died_013.png":
 		{
-			"frame": {"x":1100,"y":6600,"w":1100,"h":1100},
+			"frame": {"x":182,"y":1092,"w":182,"h":182},
 			"rotated": false,
 			"trimmed": false,
-			"spriteSourceSize": {"x":0,"y":0,"w":1100,"h":1100},
-			"sourceSize": {"w":1100,"h":1100}
+			"spriteSourceSize": {"x":0,"y":0,"w":182,"h":182},
+			"sourceSize": {"w":182,"h":182}
 		},
 		"0_Warrior_Died_014.png":
 		{
-			"frame": {"x":2200,"y":6600,"w":1100,"h":1100},
+			"frame": {"x":364,"y":1092,"w":182,"h":182},
 			"rotated": false,
 			"trimmed": false,
-			"spriteSourceSize": {"x":0,"y":0,"w":1100,"h":1100},
-			"sourceSize": {"w":1100,"h":1100}
+			"spriteSourceSize": {"x":0,"y":0,"w":182,"h":182},
+			"sourceSize": {"w":182,"h":182}
 		},
 		"0_Warrior_Died_015.png":
 		{
-			"frame": {"x":3300,"y":6600,"w":1100,"h":1100},
+			"frame": {"x":546,"y":1092,"w":182,"h":182},
 			"rotated": false,
 			"trimmed": false,
-			"spriteSourceSize": {"x":0,"y":0,"w":1100,"h":1100},
-			"sourceSize": {"w":1100,"h":1100}
+			"spriteSourceSize": {"x":0,"y":0,"w":182,"h":182},
+			"sourceSize": {"w":182,"h":182}
 		},
 		"0_Warrior_Died_016.png":
 		{
-			"frame": {"x":4400,"y":6600,"w":1100,"h":1100},
+			"frame": {"x":728,"y":1092,"w":182,"h":182},
 			"rotated": false,
 			"trimmed": false,
-			"spriteSourceSize": {"x":0,"y":0,"w":1100,"h":1100},
-			"sourceSize": {"w":1100,"h":1100}
+			"spriteSourceSize": {"x":0,"y":0,"w":182,"h":182},
+			"sourceSize": {"w":182,"h":182}
 		},
 		"0_Warrior_Died_017.png":
 		{
-			"frame": {"x":5500,"y":6600,"w":1100,"h":1100},
+			"frame": {"x":910,"y":1092,"w":182,"h":182},
 			"rotated": false,
 			"trimmed": false,
-			"spriteSourceSize": {"x":0,"y":0,"w":1100,"h":1100},
-			"sourceSize": {"w":1100,"h":1100}
+			"spriteSourceSize": {"x":0,"y":0,"w":182,"h":182},
+			"sourceSize": {"w":182,"h":182}
 		},
 		"0_Warrior_Died_018.png":
 		{
-			"frame": {"x":6600,"y":6600,"w":1100,"h":1100},
+			"frame": {"x":1092,"y":1092,"w":182,"h":182},
 			"rotated": false,
 			"trimmed": false,
-			"spriteSourceSize": {"x":0,"y":0,"w":1100,"h":1100},
-			"sourceSize": {"w":1100,"h":1100}
+			"spriteSourceSize": {"x":0,"y":0,"w":182,"h":182},
+			"sourceSize": {"w":182,"h":182}
 		},
 		"0_Warrior_Died_019.png":
 		{
-			"frame": {"x":7700,"y":0,"w":1100,"h":1100},
+			"frame": {"x":1274,"y":0,"w":182,"h":182},
 			"rotated": false,
 			"trimmed": false,
-			"spriteSourceSize": {"x":0,"y":0,"w":1100,"h":1100},
-			"sourceSize": {"w":1100,"h":1100}
+			"spriteSourceSize": {"x":0,"y":0,"w":182,"h":182},
+			"sourceSize": {"w":182,"h":182}
 		},
 		"0_Warrior_Died_020.png":
 		{
-			"frame": {"x":7700,"y":1100,"w":1100,"h":1100},
+			"frame": {"x":1274,"y":182,"w":182,"h":182},
 			"rotated": false,
 			"trimmed": false,
-			"spriteSourceSize": {"x":0,"y":0,"w":1100,"h":1100},
-			"sourceSize": {"w":1100,"h":1100}
+			"spriteSourceSize": {"x":0,"y":0,"w":182,"h":182},
+			"sourceSize": {"w":182,"h":182}
 		},
 		"0_Warrior_Died_021.png":
 		{
-			"frame": {"x":7700,"y":2200,"w":1100,"h":1100},
+			"frame": {"x":1274,"y":364,"w":182,"h":182},
 			"rotated": false,
 			"trimmed": false,
-			"spriteSourceSize": {"x":0,"y":0,"w":1100,"h":1100},
-			"sourceSize": {"w":1100,"h":1100}
+			"spriteSourceSize": {"x":0,"y":0,"w":182,"h":182},
+			"sourceSize": {"w":182,"h":182}
 		},
 		"0_Warrior_Died_022.png":
 		{
-			"frame": {"x":7700,"y":3300,"w":1100,"h":1100},
+			"frame": {"x":1274,"y":546,"w":182,"h":182},
 			"rotated": false,
 			"trimmed": false,
-			"spriteSourceSize": {"x":0,"y":0,"w":1100,"h":1100},
-			"sourceSize": {"w":1100,"h":1100}
+			"spriteSourceSize": {"x":0,"y":0,"w":182,"h":182},
+			"sourceSize": {"w":182,"h":182}
 		},
 		"0_Warrior_Died_023.png":
 		{
-			"frame": {"x":7700,"y":4400,"w":1100,"h":1100},
+			"frame": {"x":1274,"y":728,"w":182,"h":182},
 			"rotated": false,
 			"trimmed": false,
-			"spriteSourceSize": {"x":0,"y":0,"w":1100,"h":1100},
-			"sourceSize": {"w":1100,"h":1100}
+			"spriteSourceSize": {"x":0,"y":0,"w":182,"h":182},
+			"sourceSize": {"w":182,"h":182}
 		},
 		"0_Warrior_Died_024.png":
 		{
-			"frame": {"x":7700,"y":5500,"w":1100,"h":1100},
+			"frame": {"x":1274,"y":910,"w":182,"h":182},
 			"rotated": false,
 			"trimmed": false,
-			"spriteSourceSize": {"x":0,"y":0,"w":1100,"h":1100},
-			"sourceSize": {"w":1100,"h":1100}
+			"spriteSourceSize": {"x":0,"y":0,"w":182,"h":182},
+			"sourceSize": {"w":182,"h":182}
 		},
 		"0_Warrior_Died_025.png":
 		{
-			"frame": {"x":7700,"y":6600,"w":1100,"h":1100},
+			"frame": {"x":1274,"y":1092,"w":182,"h":182},
 			"rotated": false,
 			"trimmed": false,
-			"spriteSourceSize": {"x":0,"y":0,"w":1100,"h":1100},
-			"sourceSize": {"w":1100,"h":1100}
+			"spriteSourceSize": {"x":0,"y":0,"w":182,"h":182},
+			"sourceSize": {"w":182,"h":182}
 		},
 		"0_Warrior_Died_026.png":
 		{
-			"frame": {"x":0,"y":7700,"w":1100,"h":1100},
+			"frame": {"x":0,"y":1274,"w":182,"h":182},
 			"rotated": false,
 			"trimmed": false,
-			"spriteSourceSize": {"x":0,"y":0,"w":1100,"h":1100},
-			"sourceSize": {"w":1100,"h":1100}
+			"spriteSourceSize": {"x":0,"y":0,"w":182,"h":182},
+			"sourceSize": {"w":182,"h":182}
 		},
 		"0_Warrior_Died_027.png":
 		{
-			"frame": {"x":1100,"y":7700,"w":1100,"h":1100},
+			"frame": {"x":182,"y":1274,"w":182,"h":182},
 			"rotated": false,
 			"trimmed": false,
-			"spriteSourceSize": {"x":0,"y":0,"w":1100,"h":1100},
-			"sourceSize": {"w":1100,"h":1100}
+			"spriteSourceSize": {"x":0,"y":0,"w":182,"h":182},
+			"sourceSize": {"w":182,"h":182}
 		},
 		"0_Warrior_Died_028.png":
 		{
-			"frame": {"x":2200,"y":7700,"w":1100,"h":1100},
+			"frame": {"x":364,"y":1274,"w":182,"h":182},
 			"rotated": false,
 			"trimmed": false,
-			"spriteSourceSize": {"x":0,"y":0,"w":1100,"h":1100},
-			"sourceSize": {"w":1100,"h":1100}
+			"spriteSourceSize": {"x":0,"y":0,"w":182,"h":182},
+			"sourceSize": {"w":182,"h":182}
 		},
 		"0_Warrior_Died_029.png":
 		{
-			"frame": {"x":3300,"y":7700,"w":1100,"h":1100},
+			"frame": {"x":546,"y":1274,"w":182,"h":182},
 			"rotated": false,
 			"trimmed": false,
-			"spriteSourceSize": {"x":0,"y":0,"w":1100,"h":1100},
-			"sourceSize": {"w":1100,"h":1100}
+			"spriteSourceSize": {"x":0,"y":0,"w":182,"h":182},
+			"sourceSize": {"w":182,"h":182}
 		},
 		"0_Warrior_Hurt_000.png":
 		{
-			"frame": {"x":4400,"y":7700,"w":1100,"h":1100},
+			"frame": {"x":728,"y":1274,"w":182,"h":182},
 			"rotated": false,
 			"trimmed": false,
-			"spriteSourceSize": {"x":0,"y":0,"w":1100,"h":1100},
-			"sourceSize": {"w":1100,"h":1100}
+			"spriteSourceSize": {"x":0,"y":0,"w":182,"h":182},
+			"sourceSize": {"w":182,"h":182}
 		},
 		"0_Warrior_Hurt_001.png":
 		{
-			"frame": {"x":5500,"y":7700,"w":1100,"h":1100},
+			"frame": {"x":910,"y":1274,"w":182,"h":182},
 			"rotated": false,
 			"trimmed": false,
-			"spriteSourceSize": {"x":0,"y":0,"w":1100,"h":1100},
-			"sourceSize": {"w":1100,"h":1100}
+			"spriteSourceSize": {"x":0,"y":0,"w":182,"h":182},
+			"sourceSize": {"w":182,"h":182}
 		},
 		"0_Warrior_Hurt_002.png":
 		{
-			"frame": {"x":6600,"y":7700,"w":1100,"h":1100},
+			"frame": {"x":1092,"y":1274,"w":182,"h":182},
 			"rotated": false,
 			"trimmed": false,
-			"spriteSourceSize": {"x":0,"y":0,"w":1100,"h":1100},
-			"sourceSize": {"w":1100,"h":1100}
+			"spriteSourceSize": {"x":0,"y":0,"w":182,"h":182},
+			"sourceSize": {"w":182,"h":182}
 		},
 		"0_Warrior_Hurt_003.png":
 		{
-			"frame": {"x":7700,"y":7700,"w":1100,"h":1100},
+			"frame": {"x":1274,"y":1274,"w":182,"h":182},
 			"rotated": false,
 			"trimmed": false,
-			"spriteSourceSize": {"x":0,"y":0,"w":1100,"h":1100},
-			"sourceSize": {"w":1100,"h":1100}
+			"spriteSourceSize": {"x":0,"y":0,"w":182,"h":182},
+			"sourceSize": {"w":182,"h":182}
 		},
 		"0_Warrior_Hurt_004.png":
 		{
-			"frame": {"x":8800,"y":0,"w":1100,"h":1100},
+			"frame": {"x":1456,"y":0,"w":182,"h":182},
 			"rotated": false,
 			"trimmed": false,
-			"spriteSourceSize": {"x":0,"y":0,"w":1100,"h":1100},
-			"sourceSize": {"w":1100,"h":1100}
+			"spriteSourceSize": {"x":0,"y":0,"w":182,"h":182},
+			"sourceSize": {"w":182,"h":182}
 		},
 		"0_Warrior_Hurt_005.png":
 		{
-			"frame": {"x":8800,"y":1100,"w":1100,"h":1100},
+			"frame": {"x":1456,"y":182,"w":182,"h":182},
 			"rotated": false,
 			"trimmed": false,
-			"spriteSourceSize": {"x":0,"y":0,"w":1100,"h":1100},
-			"sourceSize": {"w":1100,"h":1100}
+			"spriteSourceSize": {"x":0,"y":0,"w":182,"h":182},
+			"sourceSize": {"w":182,"h":182}
 		},
 		"0_Warrior_Hurt_006.png":
 		{
-			"frame": {"x":8800,"y":2200,"w":1100,"h":1100},
+			"frame": {"x":1456,"y":364,"w":182,"h":182},
 			"rotated": false,
 			"trimmed": false,
-			"spriteSourceSize": {"x":0,"y":0,"w":1100,"h":1100},
-			"sourceSize": {"w":1100,"h":1100}
+			"spriteSourceSize": {"x":0,"y":0,"w":182,"h":182},
+			"sourceSize": {"w":182,"h":182}
 		},
 		"0_Warrior_Hurt_007.png":
 		{
-			"frame": {"x":8800,"y":3300,"w":1100,"h":1100},
+			"frame": {"x":1456,"y":546,"w":182,"h":182},
 			"rotated": false,
 			"trimmed": false,
-			"spriteSourceSize": {"x":0,"y":0,"w":1100,"h":1100},
-			"sourceSize": {"w":1100,"h":1100}
+			"spriteSourceSize": {"x":0,"y":0,"w":182,"h":182},
+			"sourceSize": {"w":182,"h":182}
 		},
 		"0_Warrior_Hurt_008.png":
 		{
-			"frame": {"x":8800,"y":4400,"w":1100,"h":1100},
+			"frame": {"x":1456,"y":728,"w":182,"h":182},
 			"rotated": false,
 			"trimmed": false,
-			"spriteSourceSize": {"x":0,"y":0,"w":1100,"h":1100},
-			"sourceSize": {"w":1100,"h":1100}
+			"spriteSourceSize": {"x":0,"y":0,"w":182,"h":182},
+			"sourceSize": {"w":182,"h":182}
 		},
 		"0_Warrior_Hurt_009.png":
 		{
-			"frame": {"x":8800,"y":5500,"w":1100,"h":1100},
+			"frame": {"x":1456,"y":910,"w":182,"h":182},
 			"rotated": false,
 			"trimmed": false,
-			"spriteSourceSize": {"x":0,"y":0,"w":1100,"h":1100},
-			"sourceSize": {"w":1100,"h":1100}
+			"spriteSourceSize": {"x":0,"y":0,"w":182,"h":182},
+			"sourceSize": {"w":182,"h":182}
 		},
 		"0_Warrior_Hurt_010.png":
 		{
-			"frame": {"x":8800,"y":6600,"w":1100,"h":1100},
+			"frame": {"x":1456,"y":1092,"w":182,"h":182},
 			"rotated": false,
 			"trimmed": false,
-			"spriteSourceSize": {"x":0,"y":0,"w":1100,"h":1100},
-			"sourceSize": {"w":1100,"h":1100}
+			"spriteSourceSize": {"x":0,"y":0,"w":182,"h":182},
+			"sourceSize": {"w":182,"h":182}
 		},
 		"0_Warrior_Hurt_011.png":
 		{
-			"frame": {"x":8800,"y":7700,"w":1100,"h":1100},
+			"frame": {"x":1456,"y":1274,"w":182,"h":182},
 			"rotated": false,
 			"trimmed": false,
-			"spriteSourceSize": {"x":0,"y":0,"w":1100,"h":1100},
-			"sourceSize": {"w":1100,"h":1100}
+			"spriteSourceSize": {"x":0,"y":0,"w":182,"h":182},
+			"sourceSize": {"w":182,"h":182}
 		},
 		"0_Warrior_Hurt_012.png":
 		{
-			"frame": {"x":0,"y":8800,"w":1100,"h":1100},
+			"frame": {"x":0,"y":1456,"w":182,"h":182},
 			"rotated": false,
 			"trimmed": false,
-			"spriteSourceSize": {"x":0,"y":0,"w":1100,"h":1100},
-			"sourceSize": {"w":1100,"h":1100}
+			"spriteSourceSize": {"x":0,"y":0,"w":182,"h":182},
+			"sourceSize": {"w":182,"h":182}
 		},
 		"0_Warrior_Hurt_013.png":
 		{
-			"frame": {"x":1100,"y":8800,"w":1100,"h":1100},
+			"frame": {"x":182,"y":1456,"w":182,"h":182},
 			"rotated": false,
 			"trimmed": false,
-			"spriteSourceSize": {"x":0,"y":0,"w":1100,"h":1100},
-			"sourceSize": {"w":1100,"h":1100}
+			"spriteSourceSize": {"x":0,"y":0,"w":182,"h":182},
+			"sourceSize": {"w":182,"h":182}
 		},
 		"0_Warrior_Hurt_014.png":
 		{
-			"frame": {"x":2200,"y":8800,"w":1100,"h":1100},
+			"frame": {"x":364,"y":1456,"w":182,"h":182},
 			"rotated": false,
 			"trimmed": false,
-			"spriteSourceSize": {"x":0,"y":0,"w":1100,"h":1100},
-			"sourceSize": {"w":1100,"h":1100}
+			"spriteSourceSize": {"x":0,"y":0,"w":182,"h":182},
+			"sourceSize": {"w":182,"h":182}
 		},
 		"0_Warrior_Idle_000.png":
 		{
-			"frame": {"x":3300,"y":8800,"w":1100,"h":1100},
+			"frame": {"x":546,"y":1456,"w":182,"h":182},
 			"rotated": false,
 			"trimmed": false,
-			"spriteSourceSize": {"x":0,"y":0,"w":1100,"h":1100},
-			"sourceSize": {"w":1100,"h":1100}
+			"spriteSourceSize": {"x":0,"y":0,"w":182,"h":182},
+			"sourceSize": {"w":182,"h":182}
 		},
 		"0_Warrior_Idle_001.png":
 		{
-			"frame": {"x":4400,"y":8800,"w":1100,"h":1100},
+			"frame": {"x":728,"y":1456,"w":182,"h":182},
 			"rotated": false,
 			"trimmed": false,
-			"spriteSourceSize": {"x":0,"y":0,"w":1100,"h":1100},
-			"sourceSize": {"w":1100,"h":1100}
+			"spriteSourceSize": {"x":0,"y":0,"w":182,"h":182},
+			"sourceSize": {"w":182,"h":182}
 		},
 		"0_Warrior_Idle_002.png":
 		{
-			"frame": {"x":5500,"y":8800,"w":1100,"h":1100},
+			"frame": {"x":910,"y":1456,"w":182,"h":182},
 			"rotated": false,
 			"trimmed": false,
-			"spriteSourceSize": {"x":0,"y":0,"w":1100,"h":1100},
-			"sourceSize": {"w":1100,"h":1100}
+			"spriteSourceSize": {"x":0,"y":0,"w":182,"h":182},
+			"sourceSize": {"w":182,"h":182}
 		},
 		"0_Warrior_Idle_003.png":
 		{
-			"frame": {"x":6600,"y":8800,"w":1100,"h":1100},
+			"frame": {"x":1092,"y":1456,"w":182,"h":182},
 			"rotated": false,
 			"trimmed": false,
-			"spriteSourceSize": {"x":0,"y":0,"w":1100,"h":1100},
-			"sourceSize": {"w":1100,"h":1100}
+			"spriteSourceSize": {"x":0,"y":0,"w":182,"h":182},
+			"sourceSize": {"w":182,"h":182}
 		},
 		"0_Warrior_Idle_004.png":
 		{
-			"frame": {"x":7700,"y":8800,"w":1100,"h":1100},
+			"frame": {"x":1274,"y":1456,"w":182,"h":182},
 			"rotated": false,
 			"trimmed": false,
-			"spriteSourceSize": {"x":0,"y":0,"w":1100,"h":1100},
-			"sourceSize": {"w":1100,"h":1100}
+			"spriteSourceSize": {"x":0,"y":0,"w":182,"h":182},
+			"sourceSize": {"w":182,"h":182}
 		},
 		"0_Warrior_Idle_005.png":
 		{
-			"frame": {"x":8800,"y":8800,"w":1100,"h":1100},
+			"frame": {"x":1456,"y":1456,"w":182,"h":182},
 			"rotated": false,
 			"trimmed": false,
-			"spriteSourceSize": {"x":0,"y":0,"w":1100,"h":1100},
-			"sourceSize": {"w":1100,"h":1100}
+			"spriteSourceSize": {"x":0,"y":0,"w":182,"h":182},
+			"sourceSize": {"w":182,"h":182}
 		},
 		"0_Warrior_Idle_006.png":
 		{
-			"frame": {"x":9900,"y":0,"w":1100,"h":1100},
+			"frame": {"x":1638,"y":0,"w":182,"h":182},
 			"rotated": false,
 			"trimmed": false,
-			"spriteSourceSize": {"x":0,"y":0,"w":1100,"h":1100},
-			"sourceSize": {"w":1100,"h":1100}
+			"spriteSourceSize": {"x":0,"y":0,"w":182,"h":182},
+			"sourceSize": {"w":182,"h":182}
 		},
 		"0_Warrior_Idle_007.png":
 		{
-			"frame": {"x":9900,"y":1100,"w":1100,"h":1100},
+			"frame": {"x":1638,"y":182,"w":182,"h":182},
 			"rotated": false,
 			"trimmed": false,
-			"spriteSourceSize": {"x":0,"y":0,"w":1100,"h":1100},
-			"sourceSize": {"w":1100,"h":1100}
+			"spriteSourceSize": {"x":0,"y":0,"w":182,"h":182},
+			"sourceSize": {"w":182,"h":182}
 		},
 		"0_Warrior_Idle_008.png":
 		{
-			"frame": {"x":9900,"y":2200,"w":1100,"h":1100},
+			"frame": {"x":1638,"y":364,"w":182,"h":182},
 			"rotated": false,
 			"trimmed": false,
-			"spriteSourceSize": {"x":0,"y":0,"w":1100,"h":1100},
-			"sourceSize": {"w":1100,"h":1100}
+			"spriteSourceSize": {"x":0,"y":0,"w":182,"h":182},
+			"sourceSize": {"w":182,"h":182}
 		},
 		"0_Warrior_Idle_009.png":
 		{
-			"frame": {"x":9900,"y":3300,"w":1100,"h":1100},
+			"frame": {"x":1638,"y":546,"w":182,"h":182},
 			"rotated": false,
 			"trimmed": false,
-			"spriteSourceSize": {"x":0,"y":0,"w":1100,"h":1100},
-			"sourceSize": {"w":1100,"h":1100}
+			"spriteSourceSize": {"x":0,"y":0,"w":182,"h":182},
+			"sourceSize": {"w":182,"h":182}
 		},
 		"0_Warrior_Idle_010.png":
 		{
-			"frame": {"x":9900,"y":4400,"w":1100,"h":1100},
+			"frame": {"x":1638,"y":728,"w":182,"h":182},
 			"rotated": false,
 			"trimmed": false,
-			"spriteSourceSize": {"x":0,"y":0,"w":1100,"h":1100},
-			"sourceSize": {"w":1100,"h":1100}
+			"spriteSourceSize": {"x":0,"y":0,"w":182,"h":182},
+			"sourceSize": {"w":182,"h":182}
 		},
 		"0_Warrior_Idle_011.png":
 		{
-			"frame": {"x":9900,"y":5500,"w":1100,"h":1100},
+			"frame": {"x":1638,"y":910,"w":182,"h":182},
 			"rotated": false,
 			"trimmed": false,
-			"spriteSourceSize": {"x":0,"y":0,"w":1100,"h":1100},
-			"sourceSize": {"w":1100,"h":1100}
+			"spriteSourceSize": {"x":0,"y":0,"w":182,"h":182},
+			"sourceSize": {"w":182,"h":182}
 		},
 		"0_Warrior_Idle_012.png":
 		{
-			"frame": {"x":9900,"y":6600,"w":1100,"h":1100},
+			"frame": {"x":1638,"y":1092,"w":182,"h":182},
 			"rotated": false,
 			"trimmed": false,
-			"spriteSourceSize": {"x":0,"y":0,"w":1100,"h":1100},
-			"sourceSize": {"w":1100,"h":1100}
+			"spriteSourceSize": {"x":0,"y":0,"w":182,"h":182},
+			"sourceSize": {"w":182,"h":182}
 		},
 		"0_Warrior_Idle_013.png":
 		{
-			"frame": {"x":9900,"y":7700,"w":1100,"h":1100},
+			"frame": {"x":1638,"y":1274,"w":182,"h":182},
 			"rotated": false,
 			"trimmed": false,
-			"spriteSourceSize": {"x":0,"y":0,"w":1100,"h":1100},
-			"sourceSize": {"w":1100,"h":1100}
+			"spriteSourceSize": {"x":0,"y":0,"w":182,"h":182},
+			"sourceSize": {"w":182,"h":182}
 		},
 		"0_Warrior_Idle_014.png":
 		{
-			"frame": {"x":9900,"y":8800,"w":1100,"h":1100},
+			"frame": {"x":1638,"y":1456,"w":182,"h":182},
 			"rotated": false,
 			"trimmed": false,
-			"spriteSourceSize": {"x":0,"y":0,"w":1100,"h":1100},
-			"sourceSize": {"w":1100,"h":1100}
+			"spriteSourceSize": {"x":0,"y":0,"w":182,"h":182},
+			"sourceSize": {"w":182,"h":182}
 		},
 		"0_Warrior_Idle_015.png":
 		{
-			"frame": {"x":0,"y":9900,"w":1100,"h":1100},
+			"frame": {"x":0,"y":1638,"w":182,"h":182},
 			"rotated": false,
 			"trimmed": false,
-			"spriteSourceSize": {"x":0,"y":0,"w":1100,"h":1100},
-			"sourceSize": {"w":1100,"h":1100}
+			"spriteSourceSize": {"x":0,"y":0,"w":182,"h":182},
+			"sourceSize": {"w":182,"h":182}
 		},
 		"0_Warrior_Idle_016.png":
 		{
-			"frame": {"x":1100,"y":9900,"w":1100,"h":1100},
+			"frame": {"x":182,"y":1638,"w":182,"h":182},
 			"rotated": false,
 			"trimmed": false,
-			"spriteSourceSize": {"x":0,"y":0,"w":1100,"h":1100},
-			"sourceSize": {"w":1100,"h":1100}
+			"spriteSourceSize": {"x":0,"y":0,"w":182,"h":182},
+			"sourceSize": {"w":182,"h":182}
 		},
 		"0_Warrior_Idle_017.png":
 		{
-			"frame": {"x":2200,"y":9900,"w":1100,"h":1100},
+			"frame": {"x":364,"y":1638,"w":182,"h":182},
 			"rotated": false,
 			"trimmed": false,
-			"spriteSourceSize": {"x":0,"y":0,"w":1100,"h":1100},
-			"sourceSize": {"w":1100,"h":1100}
+			"spriteSourceSize": {"x":0,"y":0,"w":182,"h":182},
+			"sourceSize": {"w":182,"h":182}
 		},
 		"0_Warrior_Idle_018.png":
 		{
-			"frame": {"x":3300,"y":9900,"w":1100,"h":1100},
+			"frame": {"x":546,"y":1638,"w":182,"h":182},
 			"rotated": false,
 			"trimmed": false,
-			"spriteSourceSize": {"x":0,"y":0,"w":1100,"h":1100},
-			"sourceSize": {"w":1100,"h":1100}
+			"spriteSourceSize": {"x":0,"y":0,"w":182,"h":182},
+			"sourceSize": {"w":182,"h":182}
 		},
 		"0_Warrior_Idle_019.png":
 		{
-			"frame": {"x":4400,"y":9900,"w":1100,"h":1100},
+			"frame": {"x":728,"y":1638,"w":182,"h":182},
 			"rotated": false,
 			"trimmed": false,
-			"spriteSourceSize": {"x":0,"y":0,"w":1100,"h":1100},
-			"sourceSize": {"w":1100,"h":1100}
+			"spriteSourceSize": {"x":0,"y":0,"w":182,"h":182},
+			"sourceSize": {"w":182,"h":182}
 		},
 		"0_Warrior_Idle_020.png":
 		{
-			"frame": {"x":5500,"y":9900,"w":1100,"h":1100},
+			"frame": {"x":910,"y":1638,"w":182,"h":182},
 			"rotated": false,
 			"trimmed": false,
-			"spriteSourceSize": {"x":0,"y":0,"w":1100,"h":1100},
-			"sourceSize": {"w":1100,"h":1100}
+			"spriteSourceSize": {"x":0,"y":0,"w":182,"h":182},
+			"sourceSize": {"w":182,"h":182}
 		},
 		"0_Warrior_Idle_021.png":
 		{
-			"frame": {"x":6600,"y":9900,"w":1100,"h":1100},
+			"frame": {"x":1092,"y":1638,"w":182,"h":182},
 			"rotated": false,
 			"trimmed": false,
-			"spriteSourceSize": {"x":0,"y":0,"w":1100,"h":1100},
-			"sourceSize": {"w":1100,"h":1100}
+			"spriteSourceSize": {"x":0,"y":0,"w":182,"h":182},
+			"sourceSize": {"w":182,"h":182}
 		},
 		"0_Warrior_Idle_022.png":
 		{
-			"frame": {"x":7700,"y":9900,"w":1100,"h":1100},
+			"frame": {"x":1274,"y":1638,"w":182,"h":182},
 			"rotated": false,
 			"trimmed": false,
-			"spriteSourceSize": {"x":0,"y":0,"w":1100,"h":1100},
-			"sourceSize": {"w":1100,"h":1100}
+			"spriteSourceSize": {"x":0,"y":0,"w":182,"h":182},
+			"sourceSize": {"w":182,"h":182}
 		},
 		"0_Warrior_Idle_023.png":
 		{
-			"frame": {"x":8800,"y":9900,"w":1100,"h":1100},
+			"frame": {"x":1456,"y":1638,"w":182,"h":182},
 			"rotated": false,
 			"trimmed": false,
-			"spriteSourceSize": {"x":0,"y":0,"w":1100,"h":1100},
-			"sourceSize": {"w":1100,"h":1100}
+			"spriteSourceSize": {"x":0,"y":0,"w":182,"h":182},
+			"sourceSize": {"w":182,"h":182}
 		},
 		"0_Warrior_Idle_024.png":
 		{
-			"frame": {"x":9900,"y":9900,"w":1100,"h":1100},
+			"frame": {"x":1638,"y":1638,"w":182,"h":182},
 			"rotated": false,
 			"trimmed": false,
-			"spriteSourceSize": {"x":0,"y":0,"w":1100,"h":1100},
-			"sourceSize": {"w":1100,"h":1100}
+			"spriteSourceSize": {"x":0,"y":0,"w":182,"h":182},
+			"sourceSize": {"w":182,"h":182}
 		},
 		"0_Warrior_Idle_025.png":
 		{
-			"frame": {"x":11000,"y":0,"w":1100,"h":1100},
+			"frame": {"x":1818,"y":0,"w":182,"h":182},
 			"rotated": false,
 			"trimmed": false,
-			"spriteSourceSize": {"x":0,"y":0,"w":1100,"h":1100},
-			"sourceSize": {"w":1100,"h":1100}
+			"spriteSourceSize": {"x":0,"y":0,"w":182,"h":182},
+			"sourceSize": {"w":182,"h":182}
 		},
 		"0_Warrior_Idle_026.png":
 		{
-			"frame": {"x":11000,"y":1100,"w":1100,"h":1100},
+			"frame": {"x":1818,"y":182,"w":182,"h":182},
 			"rotated": false,
 			"trimmed": false,
-			"spriteSourceSize": {"x":0,"y":0,"w":1100,"h":1100},
-			"sourceSize": {"w":1100,"h":1100}
+			"spriteSourceSize": {"x":0,"y":0,"w":182,"h":182},
+			"sourceSize": {"w":182,"h":182}
 		},
 		"0_Warrior_Idle_027.png":
 		{
-			"frame": {"x":11000,"y":2200,"w":1100,"h":1100},
+			"frame": {"x":1818,"y":364,"w":182,"h":182},
 			"rotated": false,
 			"trimmed": false,
-			"spriteSourceSize": {"x":0,"y":0,"w":1100,"h":1100},
-			"sourceSize": {"w":1100,"h":1100}
+			"spriteSourceSize": {"x":0,"y":0,"w":182,"h":182},
+			"sourceSize": {"w":182,"h":182}
 		},
 		"0_Warrior_Idle_028.png":
 		{
-			"frame": {"x":11000,"y":3300,"w":1100,"h":1100},
+			"frame": {"x":1818,"y":546,"w":182,"h":182},
 			"rotated": false,
 			"trimmed": false,
-			"spriteSourceSize": {"x":0,"y":0,"w":1100,"h":1100},
-			"sourceSize": {"w":1100,"h":1100}
+			"spriteSourceSize": {"x":0,"y":0,"w":182,"h":182},
+			"sourceSize": {"w":182,"h":182}
 		},
 		"0_Warrior_Idle_029.png":
 		{
-			"frame": {"x":11000,"y":4400,"w":1100,"h":1100},
+			"frame": {"x":1818,"y":728,"w":182,"h":182},
 			"rotated": false,
 			"trimmed": false,
-			"spriteSourceSize": {"x":0,"y":0,"w":1100,"h":1100},
-			"sourceSize": {"w":1100,"h":1100}
+			"spriteSourceSize": {"x":0,"y":0,"w":182,"h":182},
+			"sourceSize": {"w":182,"h":182}
 		}
 	}
 }
